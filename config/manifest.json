@@ -1,0 +1,56 @@
+{
+  "client.js": "/public/js/chunk/client.js",
+  "common.css": "/public/css/common.css",
+  "common.js": "/public/js/chunk/common.js",
+  "layout.js": "/public/js/chunk/layout.js",
+  "redux.js": "/public/js/chunk/redux.js",
+  "runtime.js": "/public/js/runtime.js",
+  "ssr.js": "/public/js/chunk/ssr.js",
+  "deps": {
+    "redux.js": {
+      "js": [
+        "/public/js/runtime.js",
+        "/public/js/chunk/common.js",
+        "/public/js/chunk/redux.js"
+      ],
+      "css": [
+        "/public/css/common.css"
+      ]
+    },
+    "client.js": {
+      "js": [
+        "/public/js/runtime.js",
+        "/public/js/chunk/common.js",
+        "/public/js/chunk/client.js"
+      ],
+      "css": [
+        "/public/css/common.css"
+      ]
+    },
+    "ssr.js": {
+      "js": [
+        "/public/js/runtime.js",
+        "/public/js/chunk/common.js",
+        "/public/js/chunk/ssr.js"
+      ],
+      "css": [
+        "/public/css/common.css"
+      ]
+    },
+    "layout.js": {
+      "js": [
+        "/public/js/runtime.js",
+        "/public/js/chunk/common.js",
+        "/public/js/chunk/layout.js"
+      ],
+      "css": [
+        "/public/css/common.css"
+      ]
+    }
+  },
+  "info": {
+    "publicPath": "/public/",
+    "buildPath": "public",
+    "mapped": true
+  }
+}
